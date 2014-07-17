@@ -21,3 +21,26 @@
 \\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyAndroid\obj\Release\res\values-v14\styles.xml
 \\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyAndroid\obj\Release\R.cs.flag
 \\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyAndroid\obj\Release\uploadflags.txt
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\bin\Release\TaskyAndroid.dll
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\bin\Release\com.xamarin.samples.taskydroid.apk
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\bin\Release\com.xamarin.samples.taskydroid-Signed.apk
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\bin\Release\TaskyPortableLibrary.dll
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\bin\Release\TaskyPortableLibrary.pdb
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\bin\Release\TaskyPortableLibrary.dll.mdb
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\TaskyAndroid.csprojResolveAssemblyReference.cache
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\TaskyAndroid.dll
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\android\bin\com.xamarin.samples.taskydroid.apk
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\values\strings.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\layout\tasklistitem.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\layout\homescreen.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\layout\taskdetails.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\drawable\bluebutton.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\drawable-hdpi\ic_launcher.png
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\drawable-ldpi\ic_launcher.png
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\drawable-mdpi\ic_launcher.png
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\drawable-xhdpi\ic_launcher.png
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\values\styles.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\values-v11\styles.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\res\values-v14\styles.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\R.cs.flag
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyAndroid\obj\Release\uploadflags.txt
