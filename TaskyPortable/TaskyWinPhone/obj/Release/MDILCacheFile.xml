@@ -1,0 +1,15 @@
+﻿<xapCache source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Release\TaskyWinPhone_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="17/07/2014 14:59:53">
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Release\TaskyWinPhone.dll" archivePath="TaskyWinPhone.dll" lastWriteTime="17/07/2014 14:59:51" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Images\add.png" archivePath="Images\add.png" lastWriteTime="17/07/2014 14:45:50" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Images\delete.png" archivePath="Images\delete.png" lastWriteTime="17/07/2014 14:45:50" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Images\save.png" archivePath="Images\save.png" lastWriteTime="17/07/2014 14:45:50" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="17/07/2014 14:53:16" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="17/07/2014 14:59:24" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Release\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="17/07/2014 14:55:37" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Release\Background.png" archivePath="Background.png" lastWriteTime="17/07/2014 14:57:38" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\Dependencies\Community.CsharpSqlite\Community.CsharpSqlite.WP7.dll" archivePath="Community.CsharpSqlite.WP7.dll" lastWriteTime="11/07/2014 09:19:58" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\Dependencies\Microsoft.Phone.Controls.Toolkit\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="11/07/2014 09:19:58" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyPortableLibrary\bin\Release\TaskyPortableLibrary.dll" archivePath="TaskyPortableLibrary.dll" lastWriteTime="17/07/2014 14:59:03" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="01/01/2013 18:57:00" />
+  <file source="C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="17/07/2014 14:59:24" />
+</xapCache>

@@ -23,13 +23,13 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="TASKY" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="ApplicationTitle" Text="Tarefas" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock x:Name="PageTitle" Text="Lista de Tarefas" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="68"/>
         </StackPanel>
 
         <ListBox Grid.Row="1" 
             ItemsSource="{Binding Items}"
-            Visibility="{Binding ListVisibility}">
+            Visibility="{Binding ListVisibility}" Margin="10,0">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid
