@@ -1,0 +1,5 @@
+\\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyPortableLibrary\bin\Debug\TaskyPortableLibrary.dll
+\\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyPortableLibrary\bin\Debug\TaskyPortableLibrary.pdb
+\\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyPortableLibrary\obj\Debug\TaskyPortableLibrary.dll
+\\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyPortableLibrary\obj\Debug\TaskyPortableLibrary.pdb
+\\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyPortableLibrary\obj\Debug\TaskyPortableLibrary.csprojResolveAssemblyReference.cache

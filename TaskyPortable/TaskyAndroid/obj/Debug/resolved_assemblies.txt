@@ -1,0 +1,2 @@
+\\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyAndroid\bin\Debug\TaskyAndroid.dll
+\\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyPortableLibrary\bin\Debug\TaskyPortableLibrary.dll
