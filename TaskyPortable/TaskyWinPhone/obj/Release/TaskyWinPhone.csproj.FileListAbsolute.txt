@@ -18,3 +18,4 @@ C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\o
 C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Release\TaskyWinPhone.dll
 C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Release\TaskyWinPhone.pdb
 C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Release\XapCacheFile.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Release\PageCam.g.cs

@@ -45,5 +45,11 @@ namespace TaskyWinPhone {
                 NavigationService.Navigate(new Uri("/TaskDetailsPage.xaml?id=" + item.ID, UriKind.RelativeOrAbsolute));
             }
         }
+
+        private void Cam_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/PageCam.xaml?id=-1", UriKind.RelativeOrAbsolute));
+        }
+            
+        }
     }
-}

@@ -15,7 +15,7 @@ public class TaskyApp
 
 	public void onCreate ()
 	{
-		mono.android.Runtime.register ("TaskyAndroid.TaskyApp, TaskyAndroid, Version=1.0.5311.29091, Culture=neutral, PublicKeyToken=null", TaskyApp.class, __md_methods);
+		mono.android.Runtime.register ("TaskyAndroid.TaskyApp, TaskyAndroid, Version=1.0.5312.16402, Culture=neutral, PublicKeyToken=null", TaskyApp.class, __md_methods);
 		n_onCreate ();
 	}
 

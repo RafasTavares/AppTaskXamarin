@@ -59,6 +59,7 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <HyperlinkButton Content="HyperlinkButton" HorizontalAlignment="Left" Height="100" Margin="413,570,0,-130" Grid.Row="1" VerticalAlignment="Top"/>
     </Grid>
 
     <phone:PhoneApplicationPage.ApplicationBar>
@@ -68,8 +69,15 @@
                 IconUri="/Images/add.png"
                 Text="add" 
                 Click="HandleAdd"/>
-                
+            <shell:ApplicationBarIconButton
+                IconUri="/Images/cam.png"
+                Text="Cam"
+                Click="Cam_Click"/>
+
+
         </shell:ApplicationBar>
+
+        
 
     </phone:PhoneApplicationPage.ApplicationBar>
     

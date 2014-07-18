@@ -18,3 +18,24 @@
 \\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyWinPhone\obj\Debug\TaskyWinPhone.dll
 \\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyWinPhone\obj\Debug\TaskyWinPhone.pdb
 \\172.99.107.104\Comum\Rafael Tavares\Xamarin Exemplos Mobile\mobile-samples-master\TaskyPortable\TaskyWinPhone\obj\Debug\XapCacheFile.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\ApplicationIcon.png
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\Background.png
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\TaskyWinPhone.dll
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\TaskyWinPhone.pdb
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\AppManifest.xaml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\TaskyWinPhone_Debug_AnyCPU.xap
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\Community.CsharpSqlite.WP7.dll
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\TaskyPortableLibrary.dll
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\Bin\Debug\TaskyPortableLibrary.pdb
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Debug\TaskyWinPhone.csprojResolveAssemblyReference.cache
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Debug\App.g.cs
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Debug\MainPage.g.cs
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Debug\PageCam.g.cs
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Debug\TaskDetailsPage.g.cs
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Debug\TaskyWinPhone.g.resources
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Debug\TaskyWinPhone.dll
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Debug\TaskyWinPhone.pdb
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\obj\Debug\XapCacheFile.xml
