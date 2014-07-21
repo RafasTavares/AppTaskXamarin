@@ -1,0 +1,2 @@
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyPortableLibrary\TaskyPortableLibrary.csproj;neutral
+C:\Users\rtAndrade\Documents\GitHub\AppTaskXamarin\TaskyPortable\TaskyWinPhone\TaskyWinPhone.csproj;neutral

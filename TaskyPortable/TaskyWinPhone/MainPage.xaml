@@ -73,13 +73,12 @@
                 IconUri="/Images/cam.png"
                 Text="Cam"
                 Click="Cam_Click"/>
+            <shell:ApplicationBarIconButton
+                IconUri="/Toolkit.Content/ApplicationBar.Check.png"
+                Text="Assinar"
+                Click="Assinar_Click"/>
 
 
         </shell:ApplicationBar>
-
-        
-
     </phone:PhoneApplicationPage.ApplicationBar>
-    
-    
 </phone:PhoneApplicationPage>

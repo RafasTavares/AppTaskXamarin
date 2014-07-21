@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <XAPFiles>
+    <File>resources.pri</File>
+    <File>TaskyWinPhone.dll</File>
+    <File>Assets\BadgeLogo.png</File>
+    <File>Assets\Logo.png</File>
+    <File>Assets\SplashScreen.png</File>
+    <File>Assets\SquareTile150x150.png</File>
+    <File>Assets\SquareTile71x71.png</File>
+    <File>Assets\StoreLogo.png</File>
+    <File>Assets\WideLogo.png</File>
+    <File>Images\add.png</File>
+    <File>Images\cam.png</File>
+    <File>Images\delete.png</File>
+    <File>Images\iconDisp.png</File>
+    <File>Images\save.png</File>
+    <File>README_FIRST.txt</File>
+    <File>SplashScreenImage.jpg</File>
+    <File>Toolkit.Content\ApplicationBar.Add.png</File>
+    <File>Toolkit.Content\ApplicationBar.Cancel.png</File>
+    <File>Toolkit.Content\ApplicationBar.Check.png</File>
+    <File>Toolkit.Content\ApplicationBar.Delete.png</File>
+    <File>Toolkit.Content\ApplicationBar.Select.png</File>
+    <File>AppManifest.xaml</File>
+    <File>ApplicationIcon.png</File>
+    <File>Background.png</File>
+    <File>Community.CsharpSqlite.WP7.dll</File>
+    <File>Microsoft.Phone.Controls.Toolkit.dll</File>
+    <File Type="PCL">TaskyPortableLibrary.dll</File>
+    <File>WMAppManifest.xml</File>
+    <File>AppxManifest.xml</File>
+  </XAPFiles>
+  <APPXFiles />
+</Files>

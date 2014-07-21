@@ -50,6 +50,11 @@ namespace TaskyWinPhone {
         {
             NavigationService.Navigate(new Uri("/PageCam.xaml?id=-1", UriKind.RelativeOrAbsolute));
         }
+
+        private void Assinar_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/PageAssinatura.xaml?id=-1", UriKind.RelativeOrAbsolute));
+        }
             
         }
     }
