@@ -12,11 +12,13 @@ namespace Tasky.BL.Contracts {
 		}
         #endregion
 
+        #region Variáveis
         /// <summary>
 		/// Gets or sets o id do banco de dadsos
 		/// </summary>
 		[PrimaryKey, AutoIncrement]
         public int ID { get; set; }
-	}
+        #endregion
+    }
 }
 

@@ -10,13 +10,13 @@ namespace Tasky.DL
 	/// TaskDatabase cria um DB sqlite. 
     /// O contém os métodos de recuperação e de persistência, bem como a criação de db.
 	/// </summary>
-	public class TaskDatabase 
-	{
-		static object locker = new object ();
-
-
+	public class TaskDatabase
+    {
+        #region Variáveis
+        static object locker = new object ();
         //criando o db
         SQLiteConnection database;
+        #endregion
 
         #region Iniciando a instancia do DB
         /// <summary>

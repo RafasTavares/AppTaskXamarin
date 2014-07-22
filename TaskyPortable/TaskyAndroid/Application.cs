@@ -14,6 +14,7 @@ namespace TaskyAndroid {
         public static TaskyApp Current { get; private set; }
 
         public TaskManager TaskMgr { get; set; }
+
         Connection conn;
 
         #endregion

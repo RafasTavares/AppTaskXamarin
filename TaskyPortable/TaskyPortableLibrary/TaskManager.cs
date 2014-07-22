@@ -6,33 +6,44 @@ using Tasky.DL.SQLiteBase;
 namespace Tasky.BL.Managers
 {
 	public class TaskManager
-	{
+    {
+        #region Variáveis
         DAL.TaskRepository repository;
+        #endregion
 
-		public TaskManager (SQLiteConnection conn) 
+        #region Construtor
+        public TaskManager (SQLiteConnection conn) 
         {
             repository = new DAL.TaskRepository(conn, "");
         }
+        #endregion
 
-		public Task GetTask(int id)
+        #region GetTask
+        public Task GetTask(int id)
 		{
             return repository.GetTask(id);
 		}
-		
-		public IList<Task> GetTasks ()
+        #endregion
+
+        #region GetTasks
+        public IList<Task> GetTasks ()
 		{
             return new List<Task>(repository.GetTasks());
 		}
-		
-		public int SaveTask (Task item)
+        #endregion
+
+        #region SaveTask
+        public int SaveTask (Task item)
 		{
             return repository.SaveTask(item);
 		}
-		
-		public int DeleteTask(int id)
+        #endregion
+
+        #region Delete Task
+        public int DeleteTask(int id)
 		{
             return repository.DeleteTask(id);
-		}
-		
-	}
+        }
+        #endregion
+    }
 }
