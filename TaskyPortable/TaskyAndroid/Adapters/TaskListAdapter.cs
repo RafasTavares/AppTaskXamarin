@@ -6,32 +6,44 @@ using Android.App;
 using Android;
 
 namespace TaskyAndroid.Adapters {
-	public class TaskListAdapter : BaseAdapter<Task> {
-		protected Activity context = null;
+	public class TaskListAdapter : BaseAdapter<Task>
+    {
+        #region Variáveis
+        protected Activity context = null;
 		protected IList<Task> tasks = new List<Task>();
-		
-		public TaskListAdapter (Activity context, IList<Task> tasks) : base ()
+        #endregion
+
+        #region Construtor
+        public TaskListAdapter (Activity context, IList<Task> tasks) : base ()
 		{
 			this.context = context;
 			this.tasks = tasks;
 		}
-		
-		public override Task this[int position]
+        #endregion
+
+        #region Task
+        public override Task this[int position]
 		{
 			get { return tasks[position]; }
 		}
-		
-		public override long GetItemId (int position)
+        #endregion
+
+        #region Get Item Id
+        public override long GetItemId (int position)
 		{
 			return position;
 		}
-		
-		public override int Count
+        #endregion
+
+        #region Count
+        public override int Count
 		{
 			get { return tasks.Count; }
 		}
-		
-		public override Android.Views.View GetView (int position, Android.Views.View convertView, Android.Views.ViewGroup parent)
+        #endregion
+
+        #region Get View
+        public override Android.Views.View GetView (int position, Android.Views.View convertView, Android.Views.ViewGroup parent)
 		{
 			// Get our object for position
 			var item = tasks[position];			
@@ -50,6 +62,7 @@ namespace TaskyAndroid.Adapters {
 			
 			//Finally return the view
 			return view;
-		}
-	}
+        }
+        #endregion
+    }
 }

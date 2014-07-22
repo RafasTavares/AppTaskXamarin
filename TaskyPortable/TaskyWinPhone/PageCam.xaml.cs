@@ -15,17 +15,21 @@ namespace TaskyWinPhone
 {
     public partial class PageCam : PhoneApplicationPage
     {
-       private PhotoCamera _cam;
+        #region Variáveis
+        private PhotoCamera _cam;
         private double _canvasWidth;
         private double _canvasHeight;
         private MediaLibrary _library = new MediaLibrary();
+        #endregion
 
-        // Constructor
+        #region Constructor
         public PageCam()
         {
             InitializeComponent();
         }
+        #endregion
 
+        #region On Navigated To
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             if ((PhotoCamera.IsCameraTypeSupported(CameraType.Primary) == true) ||
@@ -42,7 +46,9 @@ namespace TaskyWinPhone
                 }
             }
         }
+        #endregion
 
+        #region Get Camera aspect ratio
         private double GetCameraAspectRatio()
         {
             IEnumerable<Size> resList = _cam.AvailableResolutions;
@@ -55,6 +61,7 @@ namespace TaskyWinPhone
 
             return 1;
         }
+        #endregion
 
         #region Cam Initialized - Define o tamanho da camera
         void cam_Initialized(object sender, Microsoft.Devices.CameraOperationCompletedEventArgs e)
@@ -77,7 +84,6 @@ namespace TaskyWinPhone
         void cam_CaptureImageAvailable(object sender, Microsoft.Devices.ContentReadyEventArgs e)
         {
             string fileName = "example.jpg";
-
             try
             {   
                 // Salva a foto na biblioteca da camera

@@ -18,14 +18,21 @@ using System.Collections.Generic;
 using System.Linq;
 
 namespace TaskyWinPhone {
-    public class TaskListViewModel : ViewModelBase {
-
+    public class TaskListViewModel : ViewModelBase
+    {
+        #region Variáveis
         public ObservableCollection<TaskViewModel> Items { get; private set; }
 
         public bool IsUpdating { get; set; }
+
         public Visibility ListVisibility { get; set; }
+
         public Visibility NoDataVisibility { get; set; }
 
+        Dispatcher dispatcher;
+        #endregion
+
+        #region Construtor
         public Visibility UpdatingVisibility
         {
             get
@@ -33,9 +40,9 @@ namespace TaskyWinPhone {
                 return (IsUpdating || Items == null || Items.Count == 0) ? Visibility.Visible : Visibility.Collapsed;
             }
         }
+        #endregion
 
-        Dispatcher dispatcher;
-
+        #region BeginUpdate
         public void BeginUpdate(Dispatcher dispatcher) {
             this.dispatcher = dispatcher;
 
@@ -46,7 +53,9 @@ namespace TaskyWinPhone {
                 PopulateData(entries);
             });
         }
+        #endregion
 
+        #region Populate Data
         void PopulateData(IEnumerable<Task> entries)
         {
             dispatcher.BeginInvoke(delegate {
@@ -71,8 +80,6 @@ namespace TaskyWinPhone {
                 OnPropertyChanged("UpdatingVisibility");
             });
         }
-
-
-
+        #endregion
     }
 }

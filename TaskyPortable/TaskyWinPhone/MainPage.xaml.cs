@@ -12,8 +12,9 @@ using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
 namespace TaskyWinPhone {
-    public partial class MainPage : PhoneApplicationPage {
-        // Constructor
+    public partial class MainPage : PhoneApplicationPage
+    {
+        #region Constructor
         public MainPage()
         {
             InitializeComponent();
@@ -21,22 +22,31 @@ namespace TaskyWinPhone {
             DataContext = new TaskListViewModel();
             Loaded += new RoutedEventHandler(MainPage_Loaded);
         }
+        #endregion
 
+        #region Main Page Loaded
         void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
             ((TaskListViewModel)DataContext).BeginUpdate(Dispatcher);
         }
+        #endregion
 
+        #region On Navigated To
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
             ((TaskListViewModel)DataContext).BeginUpdate(Dispatcher);
         }
+        #endregion
+
+        #region HandleAdd
         private void HandleAdd(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/TaskDetailsPage.xaml?id=-1", UriKind.RelativeOrAbsolute));
         }
+        #endregion
 
+        #region HandleTaskTap
         private void HandleTaskTap(object sender, System.Windows.Input.GestureEventArgs e)
         {
             var item = ((Grid)sender).DataContext as TaskViewModel;
@@ -45,16 +55,20 @@ namespace TaskyWinPhone {
                 NavigationService.Navigate(new Uri("/TaskDetailsPage.xaml?id=" + item.ID, UriKind.RelativeOrAbsolute));
             }
         }
+        #endregion
 
+        #region Click Link Cam
         private void Cam_Click(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/PageCam.xaml?id=-1", UriKind.RelativeOrAbsolute));
         }
+        #endregion
 
+        #region Click link Assinar
         private void Assinar_Click(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/PageAssinatura.xaml?id=-1", UriKind.RelativeOrAbsolute));
         }
-            
-        }
+        #endregion
     }
+}

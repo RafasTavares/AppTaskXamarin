@@ -13,21 +13,25 @@ namespace TaskyWinPhone
 {
     public partial class PageAssinatura : PhoneApplicationPage
     {
-       // Constructor
+        #region Constructor
         public PageAssinatura()
         {
             InitializeComponent();
             Touch.FrameReported += new TouchFrameEventHandler(Touch_FrameReported);
         }
+        #endregion
 
+        #region Variáveis
         // preXArray and preYArray are used to store the start point 
         // for each touch point. currently silverlight support 4 muliti-touch
         // here declare as 10 points for further needs. 
         double[] preXArray = new double[10];
         double[] preYArray = new double[10];
+        #endregion
 
+        #region Touch_FrameReported
         /// <summary>
-        /// Every touch action will rise this event handler. 
+        /// Toda ação de toque vai subir esse manipulador de eventos. 
         /// </summary>
         void Touch_FrameReported(object sender, TouchFrameEventArgs e)
         {
@@ -59,7 +63,9 @@ namespace TaskyWinPhone
                 }
             }
         }
+        #endregion
 
+        #region Salve Click
         /// <summary>
         /// Salva a imagem na biblioteca de imagens
         /// </summary>
@@ -75,10 +81,13 @@ namespace TaskyWinPhone
                                                Guid.NewGuid()), ms);
             New_Click(sender, e);
         }
+        #endregion
 
+        #region Novo Click
         private void New_Click(object sender, RoutedEventArgs e)
         {
             drawCanvas.Children.Clear();
         } 
+        #endregion
     }
 }

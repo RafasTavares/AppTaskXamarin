@@ -17,16 +17,20 @@ using Android.Speech.Tts;
 namespace TaskyAndroid.Screens {
 	//TODO: implement proper lifecycle methods
 	[Activity (Label = "Task Details", Icon="@drawable/ic_launcher", Theme = "@style/AppTheme")]			
-	public class TaskDetailsScreen : Activity, TextToSpeech.IOnInitListener {
-		protected Task task = new Task();
+	public class TaskDetailsScreen : Activity, TextToSpeech.IOnInitListener
+    {
+        #region Variáveis
+        protected Task task = new Task();
 		protected Button cancelDeleteButton;
 		protected EditText notesTextEdit;
 		protected EditText nameTextEdit;
 		protected Button saveButton;
 		protected Button speakButton;
 		CheckBox doneCheckbox;
-		
-		protected override void OnCreate (Bundle bundle)
+        #endregion
+
+        #region On Create
+        protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 			
@@ -42,9 +46,10 @@ namespace TaskyAndroid.Screens {
 			int taskID = Intent.GetIntExtra("TaskID", 0);
 			if(taskID > 0) {
                 task = TaskyApp.Current.TaskMgr.GetTask(taskID);
-			}
-			
-			// Seta o layout para a tela inicial
+            }
+
+            #region Inicia Layout
+            // Seta o layout para a tela inicial
 			SetContentView(Resource.Layout.TaskDetails);
 			nameTextEdit = FindViewById<EditText>(Resource.Id.txtName);
 			notesTextEdit = FindViewById<EditText>(Resource.Id.txtNotes);
@@ -52,8 +57,9 @@ namespace TaskyAndroid.Screens {
 			doneCheckbox = FindViewById<CheckBox>(Resource.Id.chkDone);
 			cancelDeleteButton = FindViewById<Button>(Resource.Id.btnCancelDelete);
 			speakButton = FindViewById<Button> (Resource.Id.btnSpeak);
+            #endregion
 
-			// set the cancel delete based on whether or not it's an existing task
+            // set the cancel delete based on whether or not it's an existing task
 			cancelDeleteButton.Text = (task.ID == 0 ? "Cancel" : "Delete");
 			// nome
 			nameTextEdit.Text = task.Name; 
@@ -70,15 +76,18 @@ namespace TaskyAndroid.Screens {
 			};
 			speaker = new TextToSpeech (this, this);
 		}
+        #endregion
 
-		void Speak(string text)
+        #region Speak
+        void Speak(string text)
 		{
 			var p = new Dictionary<string,string> ();
 			speaker.Speak (text, QueueMode.Flush, p);
 		}
+        #endregion
 
-		#region IOnInitListener implementation
-		TextToSpeech speaker;
+        #region IOnInitListener implementation
+        TextToSpeech speaker;
 		public void OnInit (OperationResult status)
 		{
 			if (status.Equals (OperationResult.Success))
@@ -88,7 +97,8 @@ namespace TaskyAndroid.Screens {
 		}
 		#endregion
 
-		protected void Save()
+        #region Save
+        protected void Save()
 		{
 			task.Name = nameTextEdit.Text;
 			task.Notes = notesTextEdit.Text;
@@ -96,13 +106,16 @@ namespace TaskyAndroid.Screens {
             TaskyApp.Current.TaskMgr.SaveTask(task);
 			Finish();
 		}
-		
-		protected void CancelDelete()
+        #endregion
+
+        #region Cancel or Delete
+        protected void CancelDelete()
 		{
 			if(task.ID != 0) {
                 TaskyApp.Current.TaskMgr.DeleteTask(task.ID);
 			}
 			Finish();
 		}
+        #endregion
 	}
 }

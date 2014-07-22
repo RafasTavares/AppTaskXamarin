@@ -9,13 +9,17 @@ using Android.Views;
 
 namespace TaskyAndroid.Screens {
 	[Activity (Label = "TaskyPro", MainLauncher = true, Icon="@drawable/ic_launcher", Theme = "@style/AppTheme")]			
-	public class HomeScreen : Activity {
-		protected Adapters.TaskListAdapter taskList;
+	public class HomeScreen : Activity
+    {
+        #region Variaveis
+        protected Adapters.TaskListAdapter taskList;
 		protected IList<Task> tasks;
 		protected Button addTaskButton = null;
 		protected ListView taskListView = null;
-		
-		protected override void OnCreate (Bundle bundle)
+        #endregion
+
+        #region On Create
+        protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 			
@@ -53,8 +57,10 @@ namespace TaskyAndroid.Screens {
 				};
 			}
 		}
-		
-		protected override void OnResume ()
+        #endregion
+
+        #region On Resume
+        protected override void OnResume ()
 		{
 			base.OnResume ();
 
@@ -65,6 +71,7 @@ namespace TaskyAndroid.Screens {
 
 			//Hook up our adapter to our ListView
 			taskListView.Adapter = taskList;
-		}
-	}
+        }
+        #endregion
+    }
 }

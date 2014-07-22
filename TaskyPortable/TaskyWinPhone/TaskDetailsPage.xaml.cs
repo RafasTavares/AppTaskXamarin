@@ -14,12 +14,16 @@ using Tasky.BL.Managers;
 using Tasky.BL;
 
 namespace TaskyWinPhone {
-    public partial class TaskDetailsPage : PhoneApplicationPage {
+    public partial class TaskDetailsPage : PhoneApplicationPage
+    {
+        #region Construtor
         public TaskDetailsPage()
         {
             InitializeComponent();
         }
+        #endregion
 
+        #region On Navigated To
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
@@ -41,7 +45,9 @@ namespace TaskyWinPhone {
                 DataContext = vm;
             }
         }
+        #endregion
 
+        #region Handle Save
         private void HandleSave(object sender, EventArgs e)
         {
             var taskvm = (TaskViewModel)DataContext;
@@ -50,7 +56,9 @@ namespace TaskyWinPhone {
 
             NavigationService.GoBack();
         }
+        #endregion
 
+        #region Handle Delete
         private void HandleDelete(object sender, EventArgs e)
         {
             var taskvm = (TaskViewModel)DataContext;
@@ -59,5 +67,6 @@ namespace TaskyWinPhone {
 
             NavigationService.GoBack();
         }
+        #endregion
     }
 }

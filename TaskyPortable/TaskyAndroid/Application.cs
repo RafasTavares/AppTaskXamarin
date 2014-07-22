@@ -8,17 +8,24 @@ using System.IO;
 
 namespace TaskyAndroid {
     [Application]
-    public class TaskyApp : Application {
+    public class TaskyApp : Application
+    {
+        #region Variáveis
         public static TaskyApp Current { get; private set; }
 
         public TaskManager TaskMgr { get; set; }
         Connection conn;
 
+        #endregion
+
+        #region Construtor
         public TaskyApp(IntPtr handle, global::Android.Runtime.JniHandleOwnership transfer)
             : base(handle, transfer) {
                 Current = this;
         }
+        #endregion
 
+        #region On Create
         public override void OnCreate()
         {
             base.OnCreate();
@@ -30,5 +37,6 @@ namespace TaskyAndroid {
 
             TaskMgr = new TaskManager(conn);
         }
+        #endregion
     }
 }
